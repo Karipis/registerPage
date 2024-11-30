@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/4d43554a1b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" id="form">
+    <div id="container">
+        
+        <img src="" alt="">
+        <h3>You must <a href="">register</a> to enter.</h3>
+
+        <div class="signInWith"><i class="fa-brands fa-google"></i>Register with Google</div>
+        <div class="signInWith"><i class="fa-brands fa-apple"></i>Register with Apple</div>
+
+        
+        <label for="email">Email</label>
+        <input  placeholder="example@gmail.com" type="text" name="email" id="email" required>
+        
+       
+
+        <label for="username">Password</label>
+        <input  placeholder="Password1234!" type="password" name="password" id="password" required>
+
+        <h6 id="hints">Must contain:</h6>
+        <ul>
+            <li><i class="fa-solid fa-check"></i>At least 8 characters</li>
+            <li><i class="fa-solid fa-xmark"></i>A lowercase letter</li>
+            <li><i class="fa-solid fa-check"></i>A capitalized letter</li>
+            <li><i class="fa-solid fa-xmark"></i>A number</li>
+            <li><i class="fa-solid fa-check"></i>A character among (!&*.$#@)</li>
+        </ul>
+        <button id="login" type="submit"><strong>Register</strong></button>
+    </div>
+</form>
+<h1 id="success"></h1>
+    
+
+</body>
+</html>
+<script src="login.js"></script>

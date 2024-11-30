@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+    font-size:14px;
+    color: white;
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+h3{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #120E10;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: spa;
+    height: 500px;
+    width: 400px;
+    background-color: #191517;
+    border-radius: 15px;
+    border: 1px solid #b54800;
+}
+
+i{  
+    margin-right: 5px;
+}
+.signInWith{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25px;
+    border-radius: 7px;
+    border:  0.2px solid rgba(255, 255, 255, 0.271);
+    cursor: pointer;
+    transition: all 1s ease;
+    
+}
+
+.signInWith:hover{
+    border-color: #b54800;
+    background: #b5480038;
+}
+
+
+.signInWith:hover i{
+    color:#b54800;
+}
+input{
+    background-color: #191517;
+    width: 80%;
+    border-radius: 7px;
+    height: 25px;
+    padding: 12.5px;
+    outline-style: none;
+    border:  1px solid rgba(255, 255, 255, 0.271);
+    transition: transform 0.6s ease;
+
+}
+
+input:focus{
+    transform: scale(1.02);
+    border-color: #b54800;
+}
+
+
+label{
+    margin-top: 10px;
+    width: 80%;
+    text-align: start;
+}
+
+#login{
+    margin-top: 15px;
+    background: #B54800;
+    border: none;
+    width: 35%;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#login:hover{
+    background: #ee701b ;
+}
+
+a{
+    color: #b54800;
+    font-size:19px;
+}
+
+#success{
+    color: white;
+    font-size: 32px;
+}
+
+#hints{
+    text-align: start;
+    color: rgba(255, 255, 255, 0.856);
+    width: 80%; 
+
+}
+
+ul{
+    width: 80%;
+    list-style-type: none;
+}
+
+li{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+li i{
+    color: #ee701b ;
+}
